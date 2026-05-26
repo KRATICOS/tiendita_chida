@@ -1,0 +1,77 @@
+<div class="min-h-screen bg-slate-50 p-6">
+  <div class="mx-auto max-w-7xl rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+    <div class="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h1 class="text-2xl font-bold text-slate-800">Productos</h1>
+        <p class="mt-1 text-sm text-slate-500">Lista de productos registrados en el sistema.</p>
+      </div>
+
+      <button
+        type="button"
+        class="inline-flex items-center justify-center rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+      >
+        + Agregar nuevo producto
+      </button>
+    </div>
+
+    <div class="overflow-x-auto rounded-2xl border border-slate-200">
+      <table class="min-w-full divide-y divide-slate-200">
+        <thead class="bg-slate-100">
+          <tr>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">ID</th>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">Nombre</th>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">Descripción</th>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">Categoría</th>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">Precio</th>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">Stock</th>
+            <th class="px-5 py-4 text-left text-sm font-semibold text-slate-700">Estado</th>
+          </tr>
+        </thead>
+
+        <tbody class="divide-y divide-slate-200 bg-white">
+          <tr class="hover:bg-slate-50">
+            <td class="px-5 py-4 text-sm text-slate-600">001</td>
+            <td class="px-5 py-4 text-sm font-medium text-slate-800">Laptop HP</td>
+            <td class="px-5 py-4 text-sm text-slate-600">Equipo portátil para trabajo y estudio.</td>
+            <td class="px-5 py-4 text-sm text-slate-600">Tecnología</td>
+            <td class="px-5 py-4 text-sm text-slate-600">$12,500.00</td>
+            <td class="px-5 py-4 text-sm text-slate-600">15</td>
+            <td class="px-5 py-4 text-sm">
+              <span class="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
+                Disponible
+              </span>
+            </td>
+          </tr>
+
+          <tr class="hover:bg-slate-50">
+            <td class="px-5 py-4 text-sm text-slate-600">002</td>
+            <td class="px-5 py-4 text-sm font-medium text-slate-800">Proyector Epson</td>
+            <td class="px-5 py-4 text-sm text-slate-600">Ideal para presentaciones en aula.</td>
+            <td class="px-5 py-4 text-sm text-slate-600">Audiovisual</td>
+            <td class="px-5 py-4 text-sm text-slate-600">$8,900.00</td>
+            <td class="px-5 py-4 text-sm text-slate-600">7</td>
+            <td class="px-5 py-4 text-sm">
+              <span class="inline-flex rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-700">
+                Bajo stock
+              </span>
+            </td>
+          </tr>
+
+          <tr class="hover:bg-slate-50">
+            <td class="px-5 py-4 text-sm text-slate-600">003</td>
+            <td class="px-5 py-4 text-sm font-medium text-slate-800">Cámara DSLR</td>
+            <td class="px-5 py-4 text-sm text-slate-600">Cámara para fotografía y video.</td>
+            <td class="px-5 py-4 text-sm text-slate-600">Multimedia</td>
+            <td class="px-5 py-4 text-sm text-slate-600">$18,000.00</td>
+            <td class="px-5 py-4 text-sm text-slate-600">0</td>
+            <td class="px-5 py-4 text-sm">
+              <span class="inline-flex rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold text-rose-700">
+                Agotado
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
